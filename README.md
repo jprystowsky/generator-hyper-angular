@@ -55,3 +55,7 @@ MIT
 ## Feedback
 
 Let me ([Jacob Prystowsky](https://github.com/jprystowsky)) know if you found this useful. I like to build things that are used to build things.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jprystowsky/generator-hyper-angular/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
