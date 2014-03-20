@@ -1,4 +1,4 @@
-# generator-hyper-angular
+# generator-hyper-angular [![Dependency Status](https://david-dm.org/jprystowsky/generator-hyper-angular.svg?theme=shields.io)](https://david-dm.org/jprystowsky/generator-hyper-angular)
 
 HyperAngular (`generator-hyper-angular`) is a Yeoman generator for AngularJS/Express/node.js apps emphasizing modularity, configuration,
 and testing. It's designed to provide plenty of tooling to help you code expressively at all scales, while putting up
