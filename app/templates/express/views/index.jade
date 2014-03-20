@@ -1,0 +1,9 @@
+extends layout
+
+block body
+	.container
+		<% if (useUiRouter) { %>
+		div(ui-view, autoscroll='false')
+		<% } else { %>
+		div(ng-view)
+		<% } %>

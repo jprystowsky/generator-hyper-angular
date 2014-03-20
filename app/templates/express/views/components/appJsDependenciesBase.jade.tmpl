@@ -1,0 +1,7 @@
+			if (typeof grunt !== 'undefined') {
+				grunt
+					.config('appScripts')[grunt.config('environment')]
+					.forEach(function (val) {
+						print('\t\tscript(src="' + val + '")\n');
+					});
+			}
