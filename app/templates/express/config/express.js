@@ -8,7 +8,8 @@
 		app.set('port', process.env.PORT || config.port);
 		app.set('views', path.join(config.root, path.join('express', 'views')));
 		app.set('view engine', 'jade');
-		app.use(express.bodyParser());
+		app.use(express.json());
+		app.use(express.urlencoded());
 		app.use(express.methodOverride());
 		app.use(express.static(path.join(config.root, 'app')));
 		app.use(app.router);
