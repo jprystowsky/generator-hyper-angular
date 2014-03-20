@@ -56,7 +56,8 @@
     "grunt": "^0.4.4",
     "grunt-bump": "0.0.13",
     "glob": "^3.2.9",
-    "load-grunt-tasks": "^0.4.0"
+    "load-grunt-tasks": "^0.4.0",
+    "lodash": "^2.4.1"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
