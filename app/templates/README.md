@@ -41,8 +41,10 @@ directory structure. It doesn't exist by default.
 		* `index.js` defines the base, index-rendering route (single-page app)
 	* `views/` defines Express (Jade) views
 * `grunt/` holds Grunt configurations
-	* `config/` holds individual task configurations, as well as a couple special files:
-		* `appScripts.js`, defining what application scripts should be imported in each mode (development/test/production)
+	* `config/` holds individual task configurations, as well as a few special files:
+		* `appBowerScripts.js`, defining the bower-loaded scripts that should be loaded in each mode (development/test/production)
+		* `appExternalScripts.js`, defining the externally-hosted scripts that should be loaded in each mode
+		* `appScripts.js`, defining what application scripts should be imported in each mode
 		* `appStyles.js`, defining what CSS should be imported in each mode
 		* `appTemplates.js`, defining what templates will need to be compiled to what location, in each mode
 	* `tasks/` holds custom Grunt tasks
