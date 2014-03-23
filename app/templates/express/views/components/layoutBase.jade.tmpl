@@ -19,12 +19,12 @@ html(ng-app="<%= _.slugify(_.humanize(projectName)) %>", prefix="og: http://ogp.
 
 		script(src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
 
-		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js')
-		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-resource.min.js')
-		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-sanitize.min.js')
+		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js')
+		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-resource.min.js')
+		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.min.js')
 		<%
 			if (!useUiRouter) {
-				print("script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.min.js')");
+				print("script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js')");
 			}
 		%>
 
