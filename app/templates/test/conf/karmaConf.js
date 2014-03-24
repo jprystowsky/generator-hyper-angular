@@ -24,6 +24,7 @@
 				<% } %>
 				'app/js/lib/bower_components/bootstrap/dist/js/bootstrap.js',
 				'app/js/lib/bower_components/sinon-chai/lib/sinon-chai.js',
+				'app/js/lib/bower_components/chai-as-promised/lib/chai-as-promised.js',
 				'app/js/controllers/**/*.js',
 				'app/js/directives/**/*.js',
 				'app/js/filters/**/*.js',
