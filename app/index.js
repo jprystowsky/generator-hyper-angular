@@ -159,7 +159,7 @@
 
 			this.template('_Gruntfile.js', 'Gruntfile.js');
 
-			this.template('_travis.yml', '.travis.yml');
+			this.copy('_travis.yml', '.travis.yml');
 
 			this.template('app.js', 'app.js');
 
