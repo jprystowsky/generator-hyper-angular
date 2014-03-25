@@ -4,7 +4,3 @@ node_js:
 before_script:
   - npm install -g grunt-cli
   - bower install
-before_install:
-  - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != '<%= _.slugify(_.humanize(projectName)) %>' ]; then cd .. && eval "mv $currentfolder <%= _.slugify(_.humanize(projectName)) %>" && cd '<%= _.slugify(_.humanize(projectName)) %>'; fi
-
