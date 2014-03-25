@@ -6,5 +6,5 @@ before_script:
   - bower install
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != '<%= projectNameQuoteEscaped %>' ]; then cd .. && eval "mv $currentfolder <%= projectNameDoubleQuoteEscaped %>" && cd '<%= projectNameQuoteEscaped %>'; fi
+  - if [ "$currentfolder" != '<%= _.slugify(_.humanize(projectName)) %>' ]; then cd .. && eval "mv $currentfolder <%= _.slugify(_.humanize(projectName)) %>" && cd '<%= _.slugify(_.humanize(projectName)) %>'; fi
 
