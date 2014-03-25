@@ -1,4 +1,4 @@
-# <%= projectName %>
+# <%= projectName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= _.slugify(_.humanize(projectName)) %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= _.slugify(_.humanize(projectName)) %>) [![Dependency Status](https://david-dm.org/<%= githubUsername %>/<%= _.slugify(_.humanize(projectName)) %>.svg?theme=shields.io)](https://david-dm.org/<%= githubUsername %>/<%= _.slugify(_.humanize(projectName)) %>)
 
 Welcome to your project! We've made a number of opinionated choices up front to avoid common pitfalls in JavaScript
 application architecture. We've also included a few of our favorite helper libraries to handle common problems
