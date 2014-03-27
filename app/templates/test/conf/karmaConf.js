@@ -42,7 +42,19 @@
 
 			// test results reporter to use
 			// possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-			reporters: ['progress'],
+			reporters: ['progress', 'coverage'],
+
+
+			preprocessors: {
+				'app/js/app.js': 'coverage',
+				'app/js/{controllers,directives,filters,services}/**/*.js': 'coverage'
+			},
+
+
+			coverageReporter: {
+				type: 'lcov',
+				dir: 'coverage'
+			},
 
 
 			// web server port
