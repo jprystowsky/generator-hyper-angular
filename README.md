@@ -48,6 +48,10 @@ $ grunt serve:development
 ```
 After it starts, visit the URL that it tells you to visit in your favorite browser.
 
+## Example
+
+Check out [the example build](https://github.com/jprystowsky/example-hyper-angular-project) to see what it could look like and see build status, etc.
+
 ## License
 
 MIT
