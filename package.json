@@ -1,6 +1,6 @@
 {
   "name": "generator-hyper-angular",
-  "version": "0.1.4-4",
+  "version": "0.1.5-0",
   "description": "Yeoman generator for AngularJS/Express/node.js apps emphasizing modularity, configuration, and testing",
   "license": "MIT",
   "main": "app/index.js",
