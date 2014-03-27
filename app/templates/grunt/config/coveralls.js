@@ -7,7 +7,7 @@
 			debug: true,
 			coverage_dir: 'coverage',
 			dryRun: false,
-			force: false
+			force: true
 		}
 	};
 })();
