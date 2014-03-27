@@ -161,6 +161,8 @@
 
 			this.copy('_travis.yml', '.travis.yml');
 
+			this.copy('_gitignore', '.gitignore');
+
 			this.template('app.js', 'app.js');
 
 			this.template('README.md', 'README.md');
