@@ -11,8 +11,7 @@
 		headless: {
 			tasks: [
 				'test:lint',
-				'test:unit',
-				'test:coverage'
+				'test:unit'
 			]
 		},
 		lint: {
@@ -26,11 +25,6 @@
 			tasks: [
 				'setEnvironment:test',
 				'karma'
-			]
-		},
-		coverage: {
-			tasks: [
-				'coveralls'
 			]
 		},
 		e2e: {

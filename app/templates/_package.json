@@ -55,7 +55,6 @@
 		"karma": "latest",
 		"karma-mocha": "latest",
 		"karma-chai": "latest",
-		"karma-coverage": "latest",
 		"karma-sinon": "latest",
 		"karma-phantomjs-launcher": "latest",
 		"load-grunt-tasks": "latest",
