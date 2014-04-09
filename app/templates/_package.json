@@ -46,7 +46,6 @@
 		"grunt-contrib-uglify": "latest",
 		"grunt-contrib-watch": "latest",
 		"grunt-express-server": "latest",
-		"grunt-karma-coveralls": "latest",
 		"grunt-protractor-runner": "latest",
 		"grunt-protractor-webdriver": "latest",
 		"jade": "latest",
